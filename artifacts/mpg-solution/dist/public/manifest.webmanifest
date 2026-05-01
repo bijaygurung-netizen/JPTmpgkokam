@@ -1,0 +1,33 @@
+{
+  "name": "MPG Solution - Meta Ads Agency Nepal",
+  "short_name": "MPG Solution",
+  "description": "Meta Media Buying Certified Partner. Expert Facebook & Instagram ads services in Nepal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#08397b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "marketing"],
+  "lang": "en",
+  "dir": "ltr"
+}

@@ -1,0 +1,137 @@
+{
+  "_chart-line-kK28oRk0.js": {
+    "file": "assets/chart-line-kK28oRk0.js",
+    "name": "chart-line",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_client-nZP7Axlc.js": {
+    "file": "assets/client-nZP7Axlc.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index-DJ0CEeEP.js": {
+    "file": "assets/index-DJ0CEeEP.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-3GieL09G.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-nZP7Axlc.js",
+      "src/components/chat/ChatWidget.tsx",
+      "src/components/SitePopup.tsx",
+      "src/components/sections/Services.tsx",
+      "src/components/sections/WhyChooseUs.tsx",
+      "src/components/sections/PortfolioShowcase.tsx",
+      "src/components/sections/Process.tsx",
+      "src/components/sections/Pricing.tsx",
+      "src/components/sections/Testimonials.tsx",
+      "src/components/sections/FinalCTA.tsx",
+      "_index-DJ0CEeEP.js"
+    ],
+    "css": [
+      "assets/app-CjXz_X3E.css"
+    ],
+    "assets": [
+      "assets/mpg-logo-DEKcQU0A.png"
+    ]
+  },
+  "src/assets/mpg-logo.png": {
+    "file": "assets/mpg-logo-DEKcQU0A.png",
+    "src": "src/assets/mpg-logo.png"
+  },
+  "src/components/SitePopup.tsx": {
+    "file": "assets/SitePopup-_XnSOxnS.js",
+    "name": "SitePopup",
+    "src": "src/components/SitePopup.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/chat/ChatWidget.tsx": {
+    "file": "assets/ChatWidget-CO1tTN6P.js",
+    "name": "ChatWidget",
+    "src": "src/components/chat/ChatWidget.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/sections/FinalCTA.tsx": {
+    "file": "assets/FinalCTA-BAoR02tz.js",
+    "name": "FinalCTA",
+    "src": "src/components/sections/FinalCTA.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/sections/PortfolioShowcase.tsx": {
+    "file": "assets/PortfolioShowcase-CmvmS47J.js",
+    "name": "PortfolioShowcase",
+    "src": "src/components/sections/PortfolioShowcase.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/sections/Pricing.tsx": {
+    "file": "assets/Pricing-hzCzyr0A.js",
+    "name": "Pricing",
+    "src": "src/components/sections/Pricing.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/sections/Process.tsx": {
+    "file": "assets/Process-DsOmjgpC.js",
+    "name": "Process",
+    "src": "src/components/sections/Process.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_chart-line-kK28oRk0.js"
+    ]
+  },
+  "src/components/sections/Services.tsx": {
+    "file": "assets/Services-7biPNS7Q.js",
+    "name": "Services",
+    "src": "src/components/sections/Services.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_chart-line-kK28oRk0.js"
+    ]
+  },
+  "src/components/sections/Testimonials.tsx": {
+    "file": "assets/Testimonials-CSXh7H8h.js",
+    "name": "Testimonials",
+    "src": "src/components/sections/Testimonials.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/sections/WhyChooseUs.tsx": {
+    "file": "assets/WhyChooseUs-BzrNHCzg.js",
+    "name": "WhyChooseUs",
+    "src": "src/components/sections/WhyChooseUs.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}

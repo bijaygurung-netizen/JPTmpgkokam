@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block admin / staff / customer portal areas from indexing.
+Disallow: /admin/
+Disallow: /staff/
+Disallow: /customer/
+Disallow: /api/
+Disallow: /auth/
+
+# Block auth / transactional / utility flows (also marked noindex via meta).
+Disallow: /checkout
+Disallow: /get-quote
+Disallow: /install
+Disallow: /login
+Disallow: /register
+Disallow: /thank-you
+Disallow: /unsubscribe
+
+Sitemap: https://mpgsolution.com/sitemap.xml

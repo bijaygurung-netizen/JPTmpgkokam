@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-05-01T10:17:31.845Z",
+  "routes": [
+    "/",
+    "/services",
+    "/pricing",
+    "/portfolio",
+    "/blog",
+    "/contact",
+    "/about",
+    "/team",
+    "/faq",
+    "/graphics",
+    "/tools",
+    "/install",
+    "/meta-ads-nepal",
+    "/ad-bonus-program",
+    "/get-quote",
+    "/checkout",
+    "/thank-you",
+    "/login",
+    "/register",
+    "/privacy",
+    "/terms",
+    "/payment-terms",
+    "/unsubscribe"
+  ]
+}

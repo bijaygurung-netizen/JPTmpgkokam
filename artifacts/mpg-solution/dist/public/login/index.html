@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — Client Portal | MPG Solution</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sign in to your MPG Solution client portal to view live campaign reports, invoices, creative previews and chat with your account manager.">
+    <meta name="keywords" content="facebook ads nepal, instagram ads nepal, meta ads agency, social media marketing nepal, digital marketing pokhara, facebook advertising, instagram marketing, meta certified partner">
+    <meta name="author" content="MPG Solution">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://mpgsolution.com/login">
+    
+    <!-- Critical Resource Hints - Ordered by priority -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://afovmyjppfdcwgslnzik.supabase.co" crossorigin="">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://afovmyjppfdcwgslnzik.supabase.co">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    
+    <!-- Preconnect to Supabase Storage for images -->
+    <link rel="preconnect" href="https://afovmyjppfdcwgslnzik.supabase.co">
+    
+    <!-- Critical CSS Inline for LCP -->
+    <style>
+      /* Critical above-the-fold styles */
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+      body{font-family:'Poppins',system-ui,-apple-system,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;background:#fafafa}
+      #root{min-height:100vh;display:flex;flex-direction:column}
+      /* Header skeleton - fixed height prevents CLS */
+      header{position:sticky;top:0;z-index:50;height:64px;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.05)}
+      @media(min-width:768px){header{height:72px}}
+      /* Hero skeleton - fixed min-height prevents CLS */
+      .hero-skeleton{min-height:calc(100vh - 64px);display:flex;align-items:center;background:linear-gradient(180deg,#fff 0%,#f8fafc 100%)}
+      @media(min-width:768px){.hero-skeleton{min-height:calc(100vh - 72px)}}
+      /* Button base */
+      button{font-family:inherit;cursor:pointer}
+      /* Image aspect ratio - prevent CLS */
+      img{max-width:100%;height:auto;display:block}
+      img[width][height]{aspect-ratio:attr(width)/attr(height)}
+      /* Contain layout for performance */
+      section{contain:layout style}
+    </style>
+    
+    <!-- Font Loading - Optimized with font-display swap -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Favicons - Multiple formats for broad compatibility -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- Open Graph / Facebook - Enhanced for social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mpgsolution.com/login">
+    <meta property="og:title" content="Login — Client Portal | MPG Solution">
+    <meta property="og:description" content="Sign in to your MPG Solution client portal to view live campaign reports, invoices, creative previews and chat with your account manager.">
+    <meta property="og:image" content="https://mpgsolution.com/mpg-og-image.png">
+    <meta property="og:image:secure_url" content="https://mpgsolution.com/mpg-og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MPG Solution - Meta Ads Agency Nepal">
+    <meta property="og:site_name" content="MPG Solution">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card - Enhanced for Twitter sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mpgsolution.com/login">
+    <meta name="twitter:title" content="Login — Client Portal | MPG Solution">
+    <meta name="twitter:description" content="Sign in to your MPG Solution client portal to view live campaign reports, invoices, creative previews and chat with your account manager.">
+    <meta name="twitter:image" content="https://mpgsolution.com/mpg-og-image.png">
+    <meta name="twitter:image:alt" content="MPG Solution - Meta Ads Agency Nepal">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="NP-GA">
+    <meta name="geo.placename" content="Pokhara">
+    <meta name="geo.position" content="28.2096;83.9856">
+    <meta name="ICBM" content="28.2096, 83.9856">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#08397b">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MPG Solution">
+    <link rel="manifest" href="/manifest.webmanifest">
+    
+    <!-- Google AdSense Verification (static for crawler) -->
+    <meta name="google-adsense-account" content="ca-pub-6682128611520956">
+
+    <!-- Meta Pixel Base Code (static for Meta crawler detection) -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '993614156347915');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code (noscript fallback lives in <body >) -->
+    
+    <!-- Defer non-critical analytics -->
+    <script>
+      // Defer Google Ads until after page load
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17692381508';
+          script.async = true;
+          document.head.appendChild(script);
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17692381508');
+          };
+        }, 2000); // Delay by 2s to prioritize LCP
+      });
+    </script>
+    <script type="module" async="" crossorigin="" src="/assets/app-3GieL09G.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/app-CjXz_X3E.css">
+  </head>
+
+  <body>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=993614156347915&amp;ev=PageView&amp;noscript=1" alt=""></noscript>
+    <div id="root" data-server-rendered="true"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"MPG Solution","alternateName":"Meta Media Buying Partner Nepal","description":"Meta Media Buying Certified Partner ad agency in Nepal. Expert Facebook & Instagram advertising services.","url":"https://mpgsolution.com","logo":"https://mpgsolution.com/mpg-logo.png","image":"https://mpgsolution.com/mpg-og-image.png","contactPoint":{"@type":"ContactPoint","telephone":"+977-985-600-0601","contactType":"customer service","areaServed":"NP","availableLanguage":["en","ne"]},"address":{"@type":"PostalAddress","streetAddress":"Pokhara 15","addressLocality":"Kaski","addressRegion":"Gandaki","postalCode":"33700","addressCountry":"NP"},"sameAs":["https://www.facebook.com/mpgsolution","https://www.instagram.com/mpgsolution","https://www.adsmpg.com"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MPG Solution","image":"https://mpgsolution.com/mpg-og-image.png","@id":"https://mpgsolution.com","url":"https://mpgsolution.com","telephone":"+977-985-600-0601","priceRange":"NPR 28,000 - NPR 90,000","address":{"@type":"PostalAddress","streetAddress":"Pokhara 15","addressLocality":"Kaski","addressRegion":"Gandaki","postalCode":"33700","addressCountry":"NP"},"geo":{"@type":"GeoCoordinates","latitude":28.2096,"longitude":83.9856},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"120","bestRating":"5","worstRating":"1"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":"Facebook & Instagram Paid Advertising","provider":{"@type":"Organization","name":"MPG Solution"},"areaServed":{"@type":"Country","name":"Nepal"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Paid Advertising Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Facebook & Instagram Ads Management"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Performance Creative Design"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ad Copywriting & Strategy"}}]}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"MPG Solution","alternateName":"MPG Solution - Meta Ads Agency Nepal","url":"https://mpgsolution.com","description":"Meta Media Buying Certified Partner ad agency in Nepal","publisher":{"@type":"Organization","name":"MPG Solution"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://mpgsolution.com/search?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script><div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none"><ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol></div><section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section><div class="min-h-screen flex items-center justify-center bg-muted/30 p-4"><div class="rounded-2xl border bg-card text-card-foreground shadow-sm transition-all duration-300 w-full max-w-md"><div class="flex flex-col p-6 space-y-1"><h3 class="tracking-tight text-2xl font-bold text-center">Welcome Back</h3><p class="text-sm text-muted-foreground text-center">Sign in to your MPG Solution account</p></div><form><div class="p-6 pt-0 space-y-4"><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="email">Email</label><input type="email" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="email" placeholder="you@example.com" required="" value=""></div><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="password">Password</label><input type="password" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" id="password" required="" value=""></div><div class="flex justify-end"><button type="button" class="text-sm text-primary hover:underline">Forgot password?</button></div></div><div class="items-center p-6 pt-0 flex flex-col space-y-4"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 active:scale-[0.97] [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm hover:shadow-md h-10 px-4 py-2 w-full" type="submit">Sign In</button><p class="text-sm text-center text-muted-foreground">Don't have an account?<!-- --> <a class="text-primary hover:underline" href="/register">Sign up</a></p></div></form></div></div><script>window.__staticRouterHydrationData = JSON.parse("{\"loaderData\":{\"0\":null,\"0-1\":null},\"actionData\":null,\"errors\":null}");</script></div>
+<script>window.__VITE_REACT_SSG_HASH__ = '2sba8l962i'</script>
+  
+
+</body></html>
